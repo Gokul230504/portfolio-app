@@ -1,22 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
 import TestComponent from './components/functional_components/testComponent';
 import TestComponent2 from './components/functional_components/testComponent2';
 import TestClassComp from './components/class_components/Tesrclasscmpnt';
-import FooterContent from './components/class_components/FooterComponent';
 import EducationComponent from './components/class_components/education';
 import ProJects from './components/functional_components/pro';
+import NavigationBar from './components/functional_components/propscomp';
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import Skills from './components/functional_components/Skills';
 function App() {
   return (
     <div className="App">
+      <header>
        <TestComponent/>
-      <header className="App-header">
-        <TestComponent2/><EducationComponent/><ProJects/><TestClassComp/>
-         
-      </header>
-      <footer>
-        <FooterContent/>
-      </footer>
+       <BrowserRouter>
+       <NavigationBar/>
+       <Routes>
+        <Route path="/About Me"element={<TestComponent2/>}></Route>
+        <Route path="/Education"element={<EducationComponent/>}></Route>
+        <Route path="/Projects"element={<ProJects/>}></Route>
+        <Route path="/Skill"element={<Skills/>}></Route>
+        </Routes>
+        </BrowserRouter>
+       </header>
+      <body className="App-header">
+        <TestComponent2/><image src="mypic.jpg"/><EducationComponent/><ProJects/><TestClassComp/>
+        </body>  
     </div>
   );
 }

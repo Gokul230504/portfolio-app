@@ -1,4 +1,4 @@
-.App {
+.App footer{
   text-align: center;
 }
 
@@ -12,27 +12,98 @@
     animation: App-logo-spin infinite 20s linear;
   }
 } */
-h1{
-  color: darkgreen;
-}
+
 header{
-  background-color: wheat;
+  background-color: purple;
+  padding:0%;
+  position:fixed;
+  width:100%;
+ }
+ header h1{
+  text-align: center;
+  font-size:xx-large;
+  color: antiquewhite;
+ }
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: violet;
+  align-items: center;
+  position:fixed;
+  width:100%;
+  margin-top: 0%;
+  
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: purple;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:violet;
+  color: black;
+}
+.active{
+  background-color: purple;
+  color: white;
 }
 
 .App-header {
-  background-color: greenyellow;
-  min-height: 100vh;
+  background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: lavender;
+  font-weight: bold;
+  background-image:url(back.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: start;
+  margin-bottom: auto
+  
+  
 }
 
+.App-header h1{
+  text-align: center;
+}
+h1{
+  color: white;
+  background-color: purple;
+  width:100%;
+  height:100%;
+ /* padding-left: 100px;
+  padding-right: 100px;*/
+  border-radius:100%;
+}
+nav{
+  color: wheat;
+}
 .App-link {
   color: #61dafb;
 }
+footer{
+  background-color:violet;
+  color:black;
+  font-weight: bold;
+  padding:0%;
+  position:absolute;
+  width:100%;
+  
+}
+
 
 /* @keyframes App-logo-spin {
   from {

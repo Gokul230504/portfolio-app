@@ -1,7 +1,4 @@
 import React from "react";
-import TestClassComp from "../class_components/Tesrclasscmpnt";
-import FooterContent from "../class_components/FooterComponent";
-import EducationComponent from "../class_components/education";
 /*syntax
 function <function name>(){
     return (<tags>)
@@ -14,9 +11,10 @@ for import
 import <Component name> from <path>*/
 function TestComponent(){
     return(
-      <div>
+      <>
         <h1>Portfolio</h1>
-      </div>
+        
+    </>
     )
 }
 export default TestComponent
