@@ -14,9 +14,10 @@ for import
 import <Component name> from <path>*/
 function TestComponent(){
     return(
-      <div>
+      <>
         <h1>Portfolio</h1>
-      </div>
+        
+    </>
     )
 }
 export default TestComponent
