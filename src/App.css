@@ -34,7 +34,6 @@ header{
   position:fixed;
   width:100%;
   margin-top: 0%;
-  
 }
 
 li {
@@ -60,6 +59,28 @@ li a:hover {
   color: white;
 }
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: purple;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:violet;
+  color: black;
+}
+.active{
+  background-color: purple;
+  color: white;
+}
 .App-header {
   background-color: white;
   display: flex;
@@ -72,8 +93,10 @@ li a:hover {
   background-size: cover;
   text-align: start;
   margin-bottom: auto
-  
-  
+}
+h1{
+  color: purple;
+
 }
 
 .App-header h1{
@@ -95,6 +118,7 @@ nav{
   color: #61dafb;
 }
 footer{
+
   background-color:violet;
   color:black;
   font-weight: bold;
@@ -103,13 +127,3 @@ footer{
   width:100%;
   
 }
-
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
