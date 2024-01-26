@@ -7,6 +7,7 @@ import ProJects from './components/functional_components/pro';
 import NavigationBar from './components/functional_components/propscomp';
 import { BrowserRouter,Routes,Route} from 'react-router-dom';
 import Skills from './components/functional_components/Skills';
+import ImageComp from './components/functional_components/image';
 function App() {
   return (
     <div className="App">
@@ -23,7 +24,7 @@ function App() {
         </BrowserRouter>
        </header>
       <body className="App-header">
-        <TestComponent2/><image src="mypic.jpg"/><EducationComponent/><ProJects/><TestClassComp/>
+        <TestComponent2/><ImageComp/><EducationComponent/><ProJects/><TestClassComp/>
         </body>  
     </div>
   );

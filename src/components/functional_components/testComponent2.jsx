@@ -8,3 +8,12 @@ function TestComponent2(){
 }
 
 export default TestComponent2
+//useState
+    // const [Details, mydetails] = useState("About me")
+    // const Newdetails=()=>{
+    //     mydetails("I'm an Electronics and Communication Engineering student at Kongu Engineering College, passionate about developing innovative medtech and biotech solutions using embedded and IoT technologies. A polyglot fluent in English, Tamil, and Japanese, I've applied diverse programming languages to address real-world problems. Committed to leveraging my skills for global healthcare advancement, my goal is to contribute to the improvement of well-being worldwide.")
+    // }
+    // return (
+    //     <><h1><br /></h1><h1>{Details}</h1><p></p>
+    //     <button onDoubleClick={mydetails}>Click to know more about me</button></>
+    // )
